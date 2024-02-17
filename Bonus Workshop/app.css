@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  color: antiquewhite;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+}
+
+form input {
+  width: 250px;
+  margin-right: 10px;
+}
+
+section {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .card {
+  background-color: antiquewhite;
+  color: black;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.flag {
+  margin-top: 10px;
+  display: grid;
+  place-items: center;
+}
+
+li {
+  list-style: none;
+}
